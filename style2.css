@@ -1,10 +1,5 @@
-/* paleta de colores*/
-
-
-
-
 body{
-    background: linear-gradient(rgb(108, 132, 240), rgb(233, 97, 181));
+    background-color: rgb(100, 122, 119);
     min-height: 100vh;
     /*overflow: hidden;*/
 }
@@ -13,39 +8,42 @@ body{
 .img_header {
     width: 170px;
     height: 170px;
-    border-radius: 20%;
+    border-radius: 10px;
 }
 
 .header_main{
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(50, 172, 243);
+    background: linear-gradient(60deg, rgb(204, 56, 56), rgb(35, 216, 156));
+    
     align-items: center;
     height: 200px;
     margin: -1rem;
-    border-radius: 10%;
+    border-radius: 0;
 }
 
 p{
     font-family: monospace;/* para cambiar el tipo de letra*/
     font-size: 40px;
-    color: #ca0ae4;
+    color: #4a0652;
     text-align:center ;
 }
 h1{
     font-family: monospace;/* para cambiar el tipo de letra*/
     font-size: 40px;
-    color: #ca0ae4;
+    color: #4a0652;
     text-align:center ;
 }
 
 .btn_1{
-    width: 80px;
-    height: 40px;
-    border-radius: 1rem;
-    font-family: Georgia;
-    color: blueviolet;
-    background-color: rgb(29, 201, 231); 
+    width: 90px;
+    height: 60px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(65, 29, 99);
+    background-color: rgb(10, 194, 154); 
+    font-size: 18px;
+    margin: 0 0 0 250px;
 }
 
 * {
@@ -70,7 +68,7 @@ h2 {
 .slider-frame ul {
 	display: flex;
 	padding: 0;
-	width: 400%;
+	width: 600%;
 	
 	animation: slide 8s infinite alternate ease-in-out;
 }
@@ -101,8 +99,22 @@ h2 {
     display: block;
     margin: 5px 0;
     text-decoration: none;
-    color: #a20faf;
+    color: #4a0652;;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    margin: 0 0 0 200px;
+}
+.txt1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: rgb(21, 221, 188);
+    width: 55rem;
+    font-size: 25px;
+    height: 200px;
+    margin: 0 0 10px 250px;
+    background-color: #a3272d;
+    border-radius: 20px;
+    
+    
 }
